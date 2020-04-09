@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="827.672" height="242" viewBox="0 0 827.672 242">
+  <g id="Group_1197" data-name="Group 1197" transform="translate(-18030 -7834)">
+    <rect id="Rectangle_648" data-name="Rectangle 648" width="827.672" height="242" rx="30" transform="translate(18030 7834)"/>
+    <g id="Group_1196" data-name="Group 1196" transform="translate(-6)">
+      <path id="path188" d="M2569.917-4570.009c-.141-15.573,12.825-23.049,13.412-23.415-7.3-10.591-18.653-12.038-22.7-12.209-9.658-.969-18.855,5.642-23.751,5.642s-12.468-5.5-20.473-5.349a30.411,30.411,0,0,0-25.675,15.427c-10.941,18.826-2.794,46.725,7.859,62.006,5.216,7.47,11.425,15.886,19.59,15.577,7.868-.31,10.841-5.044,20.335-5.044s12.168,5.044,20.48,4.9c8.454-.162,13.82-7.632,19-15.122a67.52,67.52,0,0,0,8.587-17.51c-.188-.078-16.486-6.276-16.658-24.9" transform="translate(15629.467 12527.104)" fill="#fff"/>
+      <path id="path190" d="M370.945,20.283C375.3,15,378.248,7.665,377.438.349c-6.281.252-13.884,4.185-18.393,9.464-4.037,4.665-7.579,12.139-6.619,19.306,7,.543,14.159-3.564,18.52-8.835" transform="translate(17812.834 7890.936)" fill="#fff"/>
+    </g>
+    <text id="App_Store" data-name="App Store" transform="translate(18282 8015)" fill="#fff" font-size="81" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">App Store</tspan></text>
+    <text id="Download_on_the" data-name="Download on the" transform="translate(18282 7916)" fill="#fff" font-size="42" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Download on the</tspan></text>
+  </g>
+</svg>

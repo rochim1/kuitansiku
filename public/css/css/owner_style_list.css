@@ -1,0 +1,117 @@
+#toggle{margin-right:10px;}
+#dan{background:#fdfdfd;z-index:2;box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);}
+a > .label {
+		position: absolute;
+		top: 5px;
+		width:15px;
+		height:15px;
+		right: 3px;
+		text-align: center;
+		font-size: 9px;
+		padding: 2px 3px;
+		line-height: 1;
+
+	}.box-header.with-border {    border-bottom: 1px solid #f4f4f4;}
+	.navbar-default{background:rgba(14,80,119, 0.9);height:100%;}
+.nav > li > a {
+    padding: 10px 10px;
+}.btn-box-tool {padding: 5px;
+    font-size: 12px;
+    background: transparent;
+    color: #97a0b3;}
+#verifyed{width: 100%;color: #f4f4f4;padding:2px 0px 0px 0px;text-align:center;}
+
+#closeEmailAlert{color: black;background: #aaa;border-radius: 50%;margin-top: -25px;
+margin-right: 20px;}
+
+	.nav.list-inline{float:right}
+	.list-inline > li {
+	    font-size:15px;
+    display:inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+	#select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		outline: 0;
+		box-shadow: none;
+		border: 0 !important;
+		background: #2c3e50;
+		background-image: none;
+	}
+	/* Remove IE arrow */
+	#select::-ms-expand {
+		display: none;
+	}
+	/* Custom Select */
+	.select {
+		position: relative;
+		display: flex;
+		width: 100%;
+		height: 30px;
+		line-height: 2;
+		background: #2c3e50;
+		overflow: hidden;
+		border-radius: .25em;
+	}
+	#select {
+		position:absolute;
+		width: 100%;
+		flex: 1;
+		padding: 0 .5em;
+		color: #fff;
+		cursor: pointer;
+	}
+	/* Arrow */
+	.select::after {
+		content: '\25BC';
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0 1em;
+		background: #34495e;
+		cursor: pointer;
+		pointer-events: none;
+		-webkit-transition: .25s all ease;
+		-o-transition: .25s all ease;
+		transition: .25s all ease;
+	}
+	/* Transition */
+	.select:hover::after {
+		color: #f39c12;
+	}
+	
+/*mobile GUI*/
+
+@media only screen and (max-width: 767px)
+{
+    .logo_place{width:100%;}
+    #page-title
+    {
+        font-size:15px;
+        
+    }
+.hide-on-mobile{display:none;}
+    #spanduk_top
+{
+    /*display:none;*/
+    padding:0px 20px 0px 30px;
+    border-bottom: solid 1px grey;
+    
+}.logo_place img{width:40px;margin:10px;}
+}
+/*khusus komputer*/
+@media only screen and (min-width: 768px)
+{.logo_place img{width:50px;margin:4px 0px 0px 10px;}
+    .logo_place{width:220px;}
+    #page-title
+    {
+        width:100%;
+        font-size:20px;
+    }
+ #spanduk{   margin-left:220px;padding:0px 20px 0px 20px;}   
+}
+.logo_place{display: inline-block;position:absolute;}

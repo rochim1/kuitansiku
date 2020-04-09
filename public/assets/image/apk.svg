@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="242" viewBox="0 0 828 242">
+  <g id="Group_1198" data-name="Group 1198" transform="translate(-18030 -8133)">
+    <rect id="Rectangle_649" data-name="Rectangle 649" width="828" height="242" rx="30" transform="translate(18030 8133)"/>
+    <g id="Group_1110" data-name="Group 1110" transform="translate(18109 8199)">
+      <path id="Path_958" data-name="Path 958" d="M5762.087,7543.892l-46.147,50.736c-2.438,2.681-6.61.785-6.61-3.007V7491.034c0-3.791,4.172-5.69,6.61-3.007l46.147,50.735A3.887,3.887,0,0,1,5762.087,7543.892Z" transform="translate(-5709.33 -7486.771)" fill="#fff"/>
+      <path id="Path_959" data-name="Path 959" d="M5776.1,7531.425l-59.363,32.974c-1.547.854-2.993-1.332-1.765-2.679l42-46.183a3.1,3.1,0,0,1,4.669,0Z" transform="translate(-5703.413 -7455.168)" fill="#fff"/>
+      <path id="Path_960" data-name="Path 960" d="M5775.714,7519.7l-12.611,13.866a5.337,5.337,0,0,1-8.047,0l-39.872-43.826c-1.219-1.348.218-3.539,1.764-2.68Z" transform="translate(-5703.173 -7486.661)" fill="#fff"/>
+      <path id="Path_961" data-name="Path 961" d="M5774.2,7531.5l-21.193,11.765-14.426-15.862a6.715,6.715,0,0,1,0-8.859l14.279-15.692,21.34,11.845C5780.463,7518.177,5780.468,7528.015,5774.2,7531.5Z" transform="translate(-5677.856 -7468.424)" fill="#fff"/>
+    </g>
+    <text id="Google_Play" data-name="Google Play" transform="translate(18282 8314)" fill="#fff" font-size="81" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Google Play</tspan></text>
+    <text id="Get_it_on" data-name="Get it on" transform="translate(18282 8215)" fill="#fff" font-size="42" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Get it on</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+$orange: #ffa347;
+
+.panel {
+    position: relative;
+    background-color: #1a1a1a;
+
+    &:nth-of-type(even) {
+        background-color: #111111;
+    }
+}
+
+.svg-path {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+
+    svg {
+        width: 100%;
+        height: 100%;
+
+        path {
+            stroke: $orange;
+            fill: none;
+            stroke-width: 2px;
+            stroke-miterlimit: 10;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    }
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        fill: #ffa347;
+    }
+
+    50% {
+        fill: #ffbe7e;
+    }
+
+    100% {
+        fill: #fff;
+    }
+}

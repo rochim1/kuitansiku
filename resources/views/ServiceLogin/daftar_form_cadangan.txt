@@ -1,0 +1,6 @@
+<div class="daftar">
+    <div class="formjudul">Formulir Pendaftaran</div>
+    <div class="isiform">
+	
+</div>
+</div>

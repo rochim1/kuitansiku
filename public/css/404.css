@@ -1,0 +1,73 @@
+.section-header h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #4F4F4F;
+    font-size: 230px
+}
+
+.wow h5 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #4F4F4F;
+    font-size: 55px;
+}
+
+.wow p {
+    margin-top: -13px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #4F4F4F;
+    font-size: 18px
+}
+
+.img-center img {
+    display: block;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .section-header h1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: #4F4F4F;
+        font-size: 100px;
+    }
+
+    .wow h5 {
+        text-align: center;
+
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: #4F4F4F;
+        font-size: 20px;
+    }
+
+    .wow p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -13px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        color: #4F4F4F;
+        font-size: auto;
+    }
+
+    .img-center img {
+        display: block;
+        margin: 100px auto 0 auto;
+        padding: 20px;
+        height: 150px;
+        text-align: center;
+    }
+
+}

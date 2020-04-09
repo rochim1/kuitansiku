@@ -1,0 +1,340 @@
+html {
+  height: 100%;
+}
+a {
+  color: #1bb1dc;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #0a98c0;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Back to top button */
+
+/* Prelaoder */
+
+@keyframes animate-preloader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#eye {
+    top: 5px;
+    right: 20px;
+    z-index: 10;
+}
+#header {
+  height: 110px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+#header.header-pages {
+  height: 60px;
+}
+
+#header .logo img {
+  max-height: 35px;
+}
+
+#header .navbar-brand {
+  color: #556877;
+  font-size: 22px;
+  font-weight: 600;
+  /* font-family: "Montserrat"; */
+  padding : 0px;
+
+}
+
+
+#header .nav-main {
+  font-size: 14px;
+  color: #556877;
+  font-weight: 500;
+}
+
+
+.frgt-pw {
+    font-size: 13px;
+    color: #999;
+    text-decoration: underline;
+}
+
+.frgt-pw:hover,
+.label-checkbox100:hover {
+    color: #333;
+}
+
+.d-m {
+    padding: 0px;
+    border: none;
+}
+.nav-link{
+  cursor: pointer;
+
+}
+#header .btn-download {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+/* .dropdown-menu:after {
+    content: '';
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 36px;
+    height: 36px;
+    top: -5px;
+    left: 20px;
+    z-index: -1;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+} */
+
+
+#header .btn-download {
+  background: #1bb1dc;
+  border: 2px solid #1bb1dc;
+  color: #fff;
+}
+
+#header .btn-download:hover {
+  background: none;
+  border: 2px solid #1bb1dc;
+  color: #1bb1dc;
+/* color : #ff9648; */
+  /* warna gradasi */
+  /* background: linear-gradient(45deg,#d500f9,#ffa000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+/* Safari 4.0 - 8.0 */
+
+/* Standard syntax */
+@keyframes example {
+  0% {transform: rotate(0deg);
+      opacity:0;}
+  30% {transform: rotate(0deg);}
+ 100% {transform: rotate(20deg);
+        opacity:1;}
+  }
+#intro {
+    pointer-events: none;
+  width: 100%;
+  position : absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Desktop Navigation */
+
+
+.nav-main,
+.nav-main * {
+  margin: 0;
+  /*padding: 0px 0px 10px 0px;*/
+  list-style: none;
+}
+
+.nav-main>ul>li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+.nav-main .nav-link {
+  display: block;
+  position: relative;
+  padding: 20px 15px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-main li:hover>a {
+ 
+ color : #ff9648;
+  /* background: linear-gradient(45deg,#d500f9,#ffa000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  text-decoration: none; */
+}
+
+/* Mobile Navigation */
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+
+/* Section with background
+--------------------------------*/
+
+/* About Us Section
+--------------------------------*/
+
+/* Features Section
+--------------------------------*/
+
+#features {
+  padding: 0 0 80px 0;
+}
+
+#features .wow {
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.modal-header {
+    color: #fff;
+}
+/* Portfolio Section
+--------------------------------*/
+
+/* Download section */
+
+
+/* End Download section */
+
+
+/* Contact section */
+
+#contact img {
+  width: 80%;
+  text-align: end;
+}
+.nav-item i{
+  font-size: 20px;
+  line-height: 0;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+@media (max-width: 1199px) {
+
+  #intro {
+    height: auto;
+    padding: 85px 20px 60px 30px;
+    background-origin: content-box;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo
+  {
+      padding: 10px;
+  }
+  .btn-download {
+      box-shadow: 0px 0px 10px #1bb1dc;
+      margin: 10px 10px 20px 5px;
+      padding: 8px 25px 8px 25px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  #header {
+    height: 70px;
+    padding: 15px 0;
+  }
+  
+}
+
+@media (max-width: 989px) {
+
+  #intro {
+    background-size: contain;
+  }
+
+  #intro .container {
+    height: auto !important;
+  }
+
+  #features .wow img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  #features {
+    width: 100%;
+  }
+
+  #contact .wow {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #intro .container {
+    height: auto !important;
+  }
+
+  #features .wow img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* 
+  #download {
+    padding-left: 30px;
+    padding-right: 30px;
+  } */
+
+  #contact .wow {
+    width: 100%;
+  }
+
+}

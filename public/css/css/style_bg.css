@@ -1,0 +1,173 @@
+	@media(max-width: 767px)
+		{
+			.top
+			{
+				height: 320px;
+			}
+			
+		}
+		@media(min-width: 768px)
+		{
+			.top
+			{
+				height: 230px;
+			}
+		}
+		
+	.jaraktop{
+margin-top: 20px;
+	}
+		
+		
+		
+	.ftr{
+		    position:relative;
+		    top:150px;
+		}
+			.panel {
+
+    margin-bottom: 0px;
+			}
+		.selamat p 
+		{
+			margin-top: 70px;
+		}
+
+		.avatar-upload {
+			position: relative;
+			width: 100%;
+			padding-top:100%;
+		}
+		.avatar-upload .avatar-edit {
+			position: absolute;
+			right: 60px;
+			z-index: 1;
+			top: 50px;
+		}
+		.avatar-upload .avatar-edit input {
+			display: none;
+		}
+		.avatar-upload .avatar-edit input + label {
+			display: inline-block;
+			width: 34px;
+			height: 34px;
+			margin-bottom: 0;
+			border-radius: 100%;
+			background: #FFFFFF;
+			border: 1px solid transparent;
+			box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+			cursor: pointer;
+			font-weight: normal;
+			transition: all 0.2s ease-in-out;
+		}
+		.avatar-upload .avatar-edit input + label:hover {
+			background: #f1f1f1;
+			border-color: #d6d6d6;
+		}
+		.avatar-upload .avatar-edit input + label:after {
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			font-size: 16px;
+			content: "\f030";
+			color: #757575;
+			position: absolute;
+			top: 5px;
+			left: 0;
+			right: 0;
+			text-align: center;
+			margin: auto;
+		}
+		.avatar-upload .avatar-preview {
+			position:absolute;top: 15%;left: 15%;bottom: 15%;right: 15%;
+			margin: auto;
+			border-radius: 100%;
+			border: 6px solid #F8F8F8;
+		}
+		.avatar-upload .avatar-preview > div {
+		    height:100%;
+			border-radius: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	
+		.top::after{
+		    background-attachment: scroll;
+		}
+
+
+
+
+
+
+
+
+	@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
+    background-size: 50% 50px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 60px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 50px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}

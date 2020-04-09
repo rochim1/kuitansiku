@@ -1,0 +1,204 @@
+body{
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    background: #f8f9fa;
+}
+ body {
+     font-family: Helvetica, Arial, sans-serif;
+ }
+
+ h3 {
+     margin: 0;
+ }
+ 
+ .top{
+     z-index: -1;
+ }
+ /* About Us Section
+--------------------------------*/
+
+ #about {
+     padding: 60px 0;
+ }
+ .our-team {
+     text-align: center;
+     position: relative;
+     color: #fff;
+ }
+
+ .our-team:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     transition: all 0.3s ease 0s;
+     opacity: 0;
+     border-radius: 20px;
+ }
+
+ .our-team:hover:before {
+     opacity: 1;
+ }
+
+ .our-team img {
+     width: 100%;
+     height: auto;
+     border-radius: 20px;
+ }
+
+ .our-team .team-content {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 30px 0;
+     opacity: 0.8;
+     transition: all 0.3s ease 0s;
+     border-radius: 0px 0px 20px 20px;
+ }
+
+ .our-team:hover .team-content {
+     bottom: 20%;
+     opacity: 1;
+ }
+
+ .our-team .team-content .name {
+     font-size: 22px;
+     font-weight: 800;
+     letter-spacing: 1px;
+     display: block;
+     margin-bottom: 7px;
+     text-transform: uppercase;
+     transition: all 0.3s ease 0s;
+ }
+
+ .our-team:hover .team-content .name {
+     transform: translateY(30px);
+     transition-delay: 0.3s;
+ }
+
+ .our-team .team-content .post {
+     font-size: 17px;
+     display: block;
+     transition: all 0.3s ease 0s;
+     text-transform: capitalize;
+ }
+
+ .our-team:hover .team-content .post {
+     transform: translateY(-30px);
+     transition-delay: 0.3s;
+ }
+
+ @media screen and (max-width:990px) {
+     .our-team {
+         margin-bottom: 30px !important;
+     }
+ }
+ 
+ .galery {
+     margin: 20px auto;
+     display: table;
+ }
+
+ ul.tiles {
+     list-style-type: none;
+     width: 980px;
+     height: 490px;
+     padding: 0;
+     background: #fff;
+     box-shadow: inset 1px 1px 10px 1px #ddd;
+ }
+
+ ul.tiles li {
+     float: left;
+     width: 245px;
+     height: 245px;
+ }
+
+ ul.tiles li {
+     font-family: 'Pathway Gothic One', sans-serif;
+     line-height: 1;
+     box-sizing: border-box;
+ }
+
+ ul.tiles li h2 {
+     color: #fbfaf0;
+     font-size: 36px;
+ }
+
+ ul.tiles li a:link {
+     text-decoration: none;
+     font-size: 14px;
+     text-transform: uppercase;
+     color: #fbfaf0;
+ }
+
+ ul.tiles li a:hover,
+ ul.tiles li a:visited {
+     color: #fbfa00;
+ }
+
+ ul.tiles li img {
+     width: 245px;
+     height: 245px;
+     transition: transform 250ms;
+ }
+
+ ul.tiles li img:hover {
+     transform: scale(1.1) rotate(-5deg);
+ }
+
+ ul.tiles li:first-of-type {
+     background: #E3896F;
+     text-align: right;
+     padding: 50px 20px;
+ }
+
+ ul.tiles li:nth-of-type(3) {
+     background: #72C8C5;
+     text-align: right;
+     padding: 120px 20px;
+ }
+
+ ul.tiles li:nth-of-type(6) {
+     background: #EAC763;
+     padding: 120px 20px;
+ }
+
+ ul.tiles li:nth-of-type(8) {
+     background: #C9C2A8;
+     padding: 120px 20px;
+ }
+
+
+ .wrapper .module-team::before {
+
+     width: 100%;
+     height: 380px;
+     background: linear-gradient(45deg, #8e24aa, #ff6e40);
+     content: '';
+     position: absolute;
+     z-index: -1;
+
+ }
+
+ element {}
+
+ .wrapper .module-team {
+
+     position: relative;
+
+ }
